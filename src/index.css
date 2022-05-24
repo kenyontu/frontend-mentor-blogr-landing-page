@@ -1,4 +1,49 @@
-body {
+/* Custom properties */
+
+:root {
+  /* Colors */
+
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-red-300: hsl(356, 100%, 66%);
+
+  --clr-blue-700: hsl(208, 49%, 24%);
+  --clr-blue-900: hsl(240, 10%, 16%);
+
+  --clr-grayish-blue-100: hsl(240, 2%, 79%);
+
+  /* Gradients */
+
+  --clr-gradient-red-ltr: hsl(13, 100%, 72%);
+  --clr-gradient-red-dkr: hsl(353, 100%, 62%);
+
+  --clr-gradient-blue-dkr: hsl(237, 17%, 21%);
+  --clr-gradient-blue-ltr: hsl(237, 23%, 32%);
+
+  /* Font families */
+
+  --ff-overpass: 'Overpass';
+  --ff-ubuntu: 'Ubuntu';
+
+  /* Font weights */
+
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+}
+
+/* Resets */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+#root {
+  min-height: 100vh;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -7,7 +52,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body,
+h1,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button {
+  font: inherit;
 }

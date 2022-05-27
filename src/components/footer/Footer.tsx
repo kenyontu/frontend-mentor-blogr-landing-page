@@ -9,26 +9,26 @@ function Footer() {
       </h1>
       <div>
         <h2>Product</h2>
-        <a href="#">Overview</a>
-        <a href="#">Pricing</a>
-        <a href="#">Marketplace</a>
-        <a href="#">Features</a>
-        <a href="#">Integrations</a>
+        <a href="#/">Overview</a>
+        <a href="#/">Pricing</a>
+        <a href="#/">Marketplace</a>
+        <a href="#/">Features</a>
+        <a href="#/">Integrations</a>
       </div>
 
       <div>
         <h2>Company</h2>
-        <a href="#">About</a>
-        <a href="#">Team</a>
-        <a href="#">Blog</a>
-        <a href="#">Careers</a>
+        <a href="#/">About</a>
+        <a href="#/">Team</a>
+        <a href="#/">Blog</a>
+        <a href="#/">Careers</a>
       </div>
 
       <div>
         <h2>Connect</h2>
-        <a href="#">Contact</a>
-        <a href="#">Newsletter</a>
-        <a href="#">LinkedIn</a>
+        <a href="#/">Contact</a>
+        <a href="#/">Newsletter</a>
+        <a href="#/">LinkedIn</a>
       </div>
     </footer>
   )

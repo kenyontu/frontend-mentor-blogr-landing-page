@@ -1,0 +1,8 @@
+.message {
+  margin-top: 0.8rem;
+  font-size: 1.05rem;
+  text-align: center;
+  line-height: 1.66;
+  font-weight: var(--fw-300);
+  color: var(--clr-blue-900);
+}

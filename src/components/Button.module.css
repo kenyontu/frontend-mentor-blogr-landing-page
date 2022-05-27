@@ -1,0 +1,28 @@
+.button {
+  background-color: var(--clr-white);
+  color: var(--clr-red-300);
+  border: 1px solid var(--clr-white);
+  border-radius: 2rem;
+  padding: 0.7rem 0.1rem;
+  font-weight: var(--fw-700);
+  cursor: pointer;
+  transition: background-color 200ms ease-in, color 200ms ease-in,
+    border 200ms ease-in;
+}
+
+.button:not(.outlined):hover {
+  background-color: var(--clr-red-200);
+  color: var(--clr-white);
+  border: 1px solid var(--clr-red-200);
+}
+
+.outlined {
+  background-color: transparent;
+  color: var(--clr-white);
+  border: 1px solid var(--clr-white);
+}
+
+.outlined:hover {
+  background-color: var(--clr-white);
+  color: var(--clr-red-300);
+}

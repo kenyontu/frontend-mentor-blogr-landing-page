@@ -4,12 +4,15 @@
   /* Colors */
 
   --clr-white: hsl(0, 0%, 100%);
+  --clr-red-200: hsl(356, 100%, 74%);
   --clr-red-300: hsl(356, 100%, 66%);
 
+  --clr-blue-600: hsl(208, 49%, 32%);
   --clr-blue-700: hsl(208, 49%, 24%);
   --clr-blue-900: hsl(240, 10%, 16%);
 
-  --clr-grayish-blue-100: hsl(240, 2%, 79%);
+  --clr-grayish-blue-100: hsl(240, 2%, 94%);
+  --clr-grayish-blue-200: hsl(240, 2%, 79%);
 
   /* Gradients */
 
@@ -21,8 +24,8 @@
 
   /* Font families */
 
-  --ff-overpass: 'Overpass';
-  --ff-ubuntu: 'Ubuntu';
+  --ff-overpass: 'Overpass', sans-serif;
+  --ff-ubuntu: 'Ubuntu', sans-serif;
 
   /* Font weights */
 
@@ -31,6 +34,14 @@
   --fw-500: 500;
   --fw-600: 600;
   --fw-700: 700;
+
+  /* Sizes */
+
+  --sz-content-side-padding: 2rem;
+
+  /* Border radius */
+
+  --br-section-round-corner: 100px 100px;
 }
 
 /* Resets */
@@ -45,15 +56,18 @@ body,
 #root {
   min-height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: var(--ff-overpass);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 body,
 h1,
+h2,
+h3,
 p {
   margin: 0;
 }

@@ -1,9 +1,0 @@
-.header {
-  font-size: 1.77rem;
-  text-align: center;
-  color: var(--clr-blue-600);
-}
-
-.header:not(:first-child) {
-  margin-top: 2.8rem;
-}

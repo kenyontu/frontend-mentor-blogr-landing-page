@@ -1,26 +1,25 @@
-import styles from './App.module.css'
+import styled from 'styled-components/macro'
 
-import { Header } from './components/header'
-import {
-  HeroSection,
-  DesignedForTheFutureSection,
-  StateOfTheArtSection,
-  InfoSection,
-} from './components/sections'
-import { Footer } from './components/footer'
+import { Footer, Header } from './components/layout'
+import { DesignedFor, Hero, Info, StateOftheArt } from './components/sections'
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+`
 
 function App() {
   return (
-    <div className={styles.container}>
+    <Container>
       <Header />
       <main>
-        <HeroSection />
-        <DesignedForTheFutureSection />
-        <StateOfTheArtSection />
-        <InfoSection />
+        <Hero />
+        <DesignedFor />
+        <StateOftheArt />
+        <Info />
       </main>
       <Footer />
-    </div>
+    </Container>
   )
 }
 

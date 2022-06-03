@@ -1,11 +1,6 @@
-import { HeroSection } from './HeroSection'
-import { DesignedForTheFutureSection } from './DesignedForTheFutureSection'
-import { StateOfTheArtSection } from './StateOfTheArtSection'
-import { InfoSection } from './InfoSection'
+import { Hero } from './Hero'
+import { DesignedFor } from './DesignedFor'
+import { Info } from './Info'
+import { StateOftheArt } from './StateOftheArt'
 
-export {
-  HeroSection,
-  DesignedForTheFutureSection,
-  StateOfTheArtSection,
-  InfoSection,
-}
+export { Hero, DesignedFor, Info, StateOftheArt }

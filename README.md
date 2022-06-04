@@ -23,9 +23,9 @@ Users should be able to:
 
 ### Screenshots
 
-| Mobile                                                                                                                   | Desktop                                                                                                                                 |
-| ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
-| <a href="./screenshots/mobile-375px.png"><img src="./screenshots/mobile-375px-thumbnail.png" alt="mobile preview" /></a> | <a href="./screenshots/desktop-1440px-thumbnail.png"><img src="./screenshots/desktop-1440px-thumbnail.png" alt="desktop preview" /></a> |
+| Mobile                                                                                                                   | Desktop                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| <a href="./screenshots/mobile-375px.png"><img src="./screenshots/mobile-375px-thumbnail.png" alt="mobile preview" /></a> | <a href="./screenshots/desktop-1440px.png"><img src="./screenshots/desktop-1440px-thumbnail.png" alt="desktop preview" /></a> |
 
 Placeholder
 

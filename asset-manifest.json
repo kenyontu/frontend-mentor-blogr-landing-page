@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/frontend-mentor-blogr-landing-page/static/js/main.f51f93a0.js",
+    "main.js": "/frontend-mentor-blogr-landing-page/static/js/main.89465daa.js",
     "static/js/787.7c75954b.chunk.js": "/frontend-mentor-blogr-landing-page/static/js/787.7c75954b.chunk.js",
     "static/media/illustration-phones.svg": "/frontend-mentor-blogr-landing-page/static/media/illustration-phones.fd23559f1d2f81f9e3f3340eeaf2467c.svg",
     "static/media/logo.svg": "/frontend-mentor-blogr-landing-page/static/media/logo.1591bc20b914c098a9cd6e423b1623c3.svg",
@@ -14,10 +14,10 @@
     "static/media/bg-pattern-circles.svg": "/frontend-mentor-blogr-landing-page/static/media/bg-pattern-circles.bae804b8cc1519f26c944365280d192b.svg",
     "static/media/icon-arrow-light.svg": "/frontend-mentor-blogr-landing-page/static/media/icon-arrow-light.9ba0f38e6df41815773e653d50260ecd.svg",
     "static/media/icon-arrow-dark.svg": "/frontend-mentor-blogr-landing-page/static/media/icon-arrow-dark.5215f8d979a83644d14e8b69f6ee4633.svg",
-    "main.f51f93a0.js.map": "/frontend-mentor-blogr-landing-page/static/js/main.f51f93a0.js.map",
+    "main.89465daa.js.map": "/frontend-mentor-blogr-landing-page/static/js/main.89465daa.js.map",
     "787.7c75954b.chunk.js.map": "/frontend-mentor-blogr-landing-page/static/js/787.7c75954b.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.f51f93a0.js"
+    "static/js/main.89465daa.js"
   ]
 }

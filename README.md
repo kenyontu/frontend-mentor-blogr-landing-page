@@ -27,12 +27,10 @@ Users should be able to:
 | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
 | <a href="./screenshots/mobile-375px.png"><img src="./screenshots/mobile-375px-thumbnail.png" alt="mobile preview" /></a> | <a href="./screenshots/desktop-1440px.png"><img src="./screenshots/desktop-1440px-thumbnail.png" alt="desktop preview" /></a> |
 
-Placeholder
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://kenyontu.github.io/frontend-mentor-blogr-landing-page](https://kenyontu.github.io/frontend-mentor-blogr-landing-page)
 
 ## My process
 

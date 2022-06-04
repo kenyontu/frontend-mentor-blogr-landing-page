@@ -125,6 +125,7 @@ const theme = {
   },
   borderRadius: {
     sectionRoundCorner: '100px 100px',
+    sectionTopRoundCorner: '90px 60px',
   },
   size: {
     sideSpacing: 'var(--sz-content-side-spacing)',

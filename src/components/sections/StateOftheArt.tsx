@@ -13,7 +13,8 @@ const Section = styled.section`
     }
 
     @media ${props.theme.media.xl} {
-      padding: 3.5rem 0 5.5rem;
+      margin-top: -5.3rem;
+      padding: 4.3rem 0 6.8rem;
     }
   `}
 `
@@ -26,7 +27,7 @@ const Content = styled.div`
   ${(props) => css`
     padding: 14.2rem ${props.theme.size.sideSpacing} 7.5rem;
     color: ${props.theme.color.white};
-    border-top-right-radius: ${props.theme.borderRadius.sectionRoundCorner};
+    border-top-right-radius: ${props.theme.borderRadius.sectionTopRoundCorner};
     border-bottom-left-radius: ${props.theme.borderRadius.sectionRoundCorner};
     background: url(${bgPatternCircles}) no-repeat,
       linear-gradient(
@@ -55,7 +56,7 @@ const Content = styled.div`
       }
 
       @media ${props.theme.media.xl} {
-        min-height: 25rem;
+        min-height: 25.1rem;
         background-size: 65rem, cover;
         background-position: -14.5rem -30rem, 50%;
       }
@@ -81,7 +82,7 @@ const Img = styled.img`
     }
 
     @media ${props.theme.media.xl} {
-      left: calc(7% + ${props.theme.size.sideSpacing});
+      left: calc((7% + -8.9rem) + ${props.theme.size.sideSpacing});
     }
   `}
 `
@@ -98,7 +99,7 @@ const InfoContainer = styled.div`
 
     @media ${props.theme.media.xl} {
       max-width: 600px;
-      margin-left: calc(10% + 35rem);
+      margin-left: calc(10% + 28.65rem);
     }
   `}
 `
@@ -113,11 +114,21 @@ const Title = styled.h1`
     @media ${props.theme.media.lg} {
       text-align: left;
     }
+
+    @media ${props.theme.media.xl} {
+      margin-top: 0.6rem;
+    }
   `}
 `
 
 const Message = styled(TopicMessage)`
   color: inherit;
+
+  ${(props) => css`
+    @media ${props.theme.media.xl} {
+      margin-top: 1rem;
+    }
+  `}
 `
 
 function StateOftheArt() {

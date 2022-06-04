@@ -12,6 +12,11 @@ const TopicContainer = styled.div`
       margin-top: -0.9rem;
       padding: 3.2rem 5.5rem 0 0;
     }
+
+    @media ${props.theme.media.xl} {
+      margin-top: -1rem;
+      padding: 3.2rem 5.47rem 0 0;
+    }
   `}
 `
 

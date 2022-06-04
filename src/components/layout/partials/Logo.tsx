@@ -1,5 +1,5 @@
 import { ComponentProps } from 'react'
-import styled from 'styled-components/macro'
+import styled, { css } from 'styled-components/macro'
 
 import blogrLogo from '../../../assets/images/logo.svg'
 
@@ -12,6 +12,12 @@ const Link = styled.a`
 
 const Img = styled.img`
   height: 1.9rem;
+
+  ${(props) => css`
+    @media ${props.theme.media.xl} {
+      height: 2.5rem;
+    }
+  `}
 `
 
 type Props = Omit<ComponentProps<'a'>, 'ref'>

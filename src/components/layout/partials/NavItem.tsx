@@ -38,6 +38,13 @@ const Container = styled.li`
         transform: rotate(-180deg);
       }
     }
+
+    @media ${props.theme.media.xl} {
+      & + & {
+        margin-top: 0;
+        margin-left: 1.8rem;
+      }
+    }
   `}
 `
 
@@ -79,6 +86,14 @@ const Name = styled.span<{ open: boolean }>`
 
       &::after {
         background: url(${arrowIconDesktop}) center no-repeat;
+      }
+    }
+
+    @media ${props.theme.media.xl} {
+      font-size: 1.09rem;
+
+      &::after {
+        margin-left: 0.3rem;
       }
     }
   `}

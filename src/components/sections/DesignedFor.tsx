@@ -39,7 +39,7 @@ const Title = styled(SectionHeader)`
 
     @media ${props.theme.media.xl} {
       position: absolute;
-      top: 6rem;
+      top: 9.5rem;
     }
   `}
 `
@@ -79,7 +79,7 @@ const Picture = styled.picture`
     @media ${props.theme.media.xl} {
       max-width: unset;
       height: 57.8rem;
-      margin-right: -25rem;
+      margin-right: -27.6rem;
       aspect-ratio: 1;
     }
   `}

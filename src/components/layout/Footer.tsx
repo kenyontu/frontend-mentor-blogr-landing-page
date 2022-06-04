@@ -11,11 +11,12 @@ const Container = styled.footer`
     padding: 4.7rem ${props.theme.size.sideSpacing} 3rem;
     background-color: ${props.theme.color.blue900};
     color: ${props.theme.color.white};
-    border-top-right-radius: ${props.theme.borderRadius.sectionRoundCorner};
+    border-top-right-radius: ${props.theme.borderRadius.sectionTopRoundCorner};
     font-family: ${props.theme.ff.ubuntu.name};
 
     @media ${props.theme.media.xl} {
-      margin-top: 0;
+      padding: 4.35rem ${props.theme.size.sideSpacing} 4rem;
+      margin-top: -4rem;
       flex-direction: row;
       align-items: flex-start;
 
@@ -93,7 +94,20 @@ const LinkList = styled.section`
     }
 
     @media ${props.theme.media.xl} {
-      padding: 0 0 1.25rem;
+      padding: 0.28rem 0 1.25rem;
+
+      & > a {
+        margin-top: 1.17rem;
+        font-size: 0.9rem;
+        text-decoration: none;
+        line-height: 1;
+        color: ${props.theme.color.grayishBlue200};
+        font-weight: ${props.theme.ff.ubuntu.fw400};
+      }
+
+      & > a:first-of-type {
+        margin-top: 2.2rem;
+      }
     }
   `}
 `
@@ -102,6 +116,10 @@ const ListTitle = styled.h1`
   ${(props) => css`
     font-size: 1.13rem;
     font-weight: ${props.theme.ff.ubuntu.fw600};
+
+    @media ${props.theme.media.xl} {
+      font-size: 1rem;
+    }
   `}
 `
 

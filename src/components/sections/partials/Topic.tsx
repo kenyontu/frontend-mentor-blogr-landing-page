@@ -17,6 +17,12 @@ const Topic = styled.section`
         margin-top: 4.9rem;
       }
     }
+
+    @media ${props.theme.media.xl} {
+      &:not(:first-child) {
+        margin-top: 4.9rem;
+      }
+    }
   `}
 `
 

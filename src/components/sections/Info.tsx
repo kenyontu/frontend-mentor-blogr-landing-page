@@ -63,9 +63,19 @@ const Picture = styled.picture`
     }
 
     @media ${props.theme.media.xl} {
+      margin-top: 0.5rem;
       max-width: unset;
-      height: 57.8rem;
-      margin-left: -25rem;
+      height: 60.7rem;
+      margin-left: -27.7rem;
+    }
+  `}
+`
+
+const StyledTopicContainer = styled(TopicContainer)`
+  ${(props) => css`
+    @media ${props.theme.media.xl} {
+      margin-top: -6.1rem;
+      padding: 0 0 0 2.5rem;
     }
   `}
 `
@@ -82,7 +92,7 @@ function Info() {
           <source media={media.lg} srcSet={laptopImageDesktop} />
           <img src={laptopImageMobile} alt="" />
         </Picture>
-        <TopicContainer>
+        <StyledTopicContainer>
           <Topic>
             <FirstHeader>Free, open, simple</FirstHeader>
             <TopicMessage>
@@ -102,7 +112,7 @@ function Info() {
               producing even the most complicated sites.
             </TopicMessage>
           </Topic>
-        </TopicContainer>
+        </StyledTopicContainer>
       </Content>
     </Container>
   )

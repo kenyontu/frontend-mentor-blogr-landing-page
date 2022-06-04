@@ -8,7 +8,7 @@ import { TopicMessage } from './partials/TopicMessage'
 import { TopicContainer } from './partials/TopicContainer'
 import { Topic } from './partials/Topic'
 
-const Container = styled.section`
+const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;

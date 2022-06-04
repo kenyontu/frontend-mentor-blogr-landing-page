@@ -48,6 +48,7 @@ function Header() {
       <Logo />
       <NavBar open={isMenuOpen} />
       <MenuButton
+        aria-label="Menu"
         open={Boolean(isMenuOpen)}
         onClick={() => setIsMenuOpen((isOpen) => !isOpen)}
       />

@@ -19,13 +19,15 @@ const Container = styled.footer`
       flex-direction: row;
       align-items: flex-start;
 
-      & > h1 {
+      & > ${LogoContainer} {
         flex: 1;
         position: relative;
       }
     }
   `}
 `
+
+const LogoContainer = styled.div``
 
 const Logo = styled.img`
   height: 2.5rem;
@@ -63,7 +65,7 @@ const Links = styled.div`
   `}
 `
 
-const LinkList = styled.div`
+const LinkList = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,7 +98,7 @@ const LinkList = styled.div`
   `}
 `
 
-const ListTitle = styled.h2`
+const ListTitle = styled.h1`
   ${(props) => css`
     font-size: 1.13rem;
     font-weight: ${props.theme.ff.ubuntu.fw600};
@@ -106,9 +108,9 @@ const ListTitle = styled.h2`
 function Footer() {
   return (
     <Container>
-      <h1>
+      <LogoContainer>
         <Logo src={blogrLogo} alt="" />
-      </h1>
+      </LogoContainer>
       <Links>
         <LinkList>
           <ListTitle>Product</ListTitle>

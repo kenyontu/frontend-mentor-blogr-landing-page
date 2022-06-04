@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components/macro'
 
-const SectionHeader = styled.h2`
+const SectionHeader = styled.p`
   font-size: 1.615rem;
   letter-spacing: -0.1px;
 

@@ -6,6 +6,8 @@ import { media } from '../../theme'
 import { SectionHeader } from './partials/SectionHeader'
 import { TopicHeader } from './partials/TopicHeader'
 import { TopicMessage } from './partials/TopicMessage'
+import { TopicContainer } from './partials/TopicContainer'
+import { Topic } from './partials/Topic'
 
 const Container = styled.section`
   display: flex;
@@ -83,23 +85,6 @@ const Picture = styled.picture`
   `}
 `
 
-const InfoContainer = styled.div`
-  display: flex;
-  margin-top: -1.5rem;
-  flex-direction: column;
-  align-items: center;
-  line-height: 1.15;
-  max-width: 800px;
-
-  ${(props) => css`
-    @media ${props.theme.media.lg} {
-      margin-top: -0.9rem;
-      align-items: flex-start;
-      padding: 3.2rem 5.5rem 0 0;
-    }
-  `}
-`
-
 function DesignedFor() {
   return (
     <Container>
@@ -109,24 +94,28 @@ function DesignedFor() {
           <source media={media.lg} srcSet={editorImageDesktop} />
           <img src={editorImageMobile} alt="" />
         </Picture>
-        <InfoContainer>
-          <TopicHeader>Introducing an extensible editor</TopicHeader>
-          <TopicMessage>
-            Blogr features an exceedingly intuitive interface which lets you
-            focus on one thing: creating content. The editor supports management
-            of multiple blogs and allows easy manipulation of embeds such as
-            images, videos, and Markdown. Extensibility with plugins and themes
-            provide easy ways to add functionality or change the looks of a
-            blog.
-          </TopicMessage>
-          <TopicHeader>Robust content management</TopicHeader>
-          <TopicMessage>
-            Flexible content management enables users to easily move through
-            posts. Increase the usability of your blog by adding customized
-            categories, sections, format, or flow. With this functionality,
-            you're in full control.
-          </TopicMessage>
-        </InfoContainer>
+        <TopicContainer>
+          <Topic>
+            <TopicHeader>Introducing an extensible editor</TopicHeader>
+            <TopicMessage>
+              Blogr features an exceedingly intuitive interface which lets you
+              focus on one thing: creating content. The editor supports
+              management of multiple blogs and allows easy manipulation of
+              embeds such as images, videos, and Markdown. Extensibility with
+              plugins and themes provide easy ways to add functionality or
+              change the looks of a blog.
+            </TopicMessage>
+          </Topic>
+          <Topic>
+            <TopicHeader>Robust content management</TopicHeader>
+            <TopicMessage>
+              Flexible content management enables users to easily move through
+              posts. Increase the usability of your blog by adding customized
+              categories, sections, format, or flow. With this functionality,
+              you're in full control.
+            </TopicMessage>
+          </Topic>
+        </TopicContainer>
       </Content>
     </Container>
   )

@@ -5,6 +5,8 @@ import laptopImageDesktop from '../../assets/images/illustration-laptop-desktop.
 import { media } from '../../theme'
 import { TopicHeader } from './partials/TopicHeader'
 import { TopicMessage } from './partials/TopicMessage'
+import { TopicContainer } from './partials/TopicContainer'
+import { Topic } from './partials/Topic'
 
 const Container = styled.section`
   display: flex;
@@ -68,23 +70,6 @@ const Picture = styled.picture`
   `}
 `
 
-const InfoContainer = styled.div`
-  display: flex;
-  margin-top: -1.5rem;
-  flex-direction: column;
-  align-items: center;
-  line-height: 1.15;
-  max-width: 800px;
-
-  ${(props) => css`
-    @media ${props.theme.media.lg} {
-      margin-top: -0.9rem;
-      align-items: flex-start;
-      padding: 3.2rem 5.5rem 0 0;
-    }
-  `}
-`
-
 const FirstHeader = styled(TopicHeader)`
   margin-top: -4.6rem;
 `
@@ -97,23 +82,27 @@ function Info() {
           <source media={media.lg} srcSet={laptopImageDesktop} />
           <img src={laptopImageMobile} alt="" />
         </Picture>
-        <InfoContainer>
-          <FirstHeader>Free, open, simple</FirstHeader>
-          <TopicMessage>
-            Blogr is a free and open source application backed by a large
-            community of helpful developers. It supports features such as code
-            syntax highlighting, RSS feeds, social media integration,
-            third-party commenting tools, and works seamlessly with Google
-            Analytics. The architecture is clean and is relatively easy to
-            learn.
-          </TopicMessage>
-          <TopicHeader>Powerful tooling</TopicHeader>
-          <TopicMessage>
-            Batteries included. We built a simple and straightforward CLI tool
-            that makes customization and deployment a breeze, but capable of
-            producing even the most complicated sites.
-          </TopicMessage>
-        </InfoContainer>
+        <TopicContainer>
+          <Topic>
+            <FirstHeader>Free, open, simple</FirstHeader>
+            <TopicMessage>
+              Blogr is a free and open source application backed by a large
+              community of helpful developers. It supports features such as code
+              syntax highlighting, RSS feeds, social media integration,
+              third-party commenting tools, and works seamlessly with Google
+              Analytics. The architecture is clean and is relatively easy to
+              learn.
+            </TopicMessage>
+          </Topic>
+          <Topic>
+            <TopicHeader>Powerful tooling</TopicHeader>
+            <TopicMessage>
+              Batteries included. We built a simple and straightforward CLI tool
+              that makes customization and deployment a breeze, but capable of
+              producing even the most complicated sites.
+            </TopicMessage>
+          </Topic>
+        </TopicContainer>
       </Content>
     </Container>
   )

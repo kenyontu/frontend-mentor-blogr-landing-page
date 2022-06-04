@@ -7,17 +7,9 @@ const TopicHeader = styled.h1`
   ${(props) => css`
     color: ${props.theme.color.blue600};
 
-    &:not(:first-child) {
-      margin-top: 2.8rem;
-    }
-
     @media ${props.theme.media.lg} {
       text-align: left;
       letter-spacing: -0.42px;
-
-      &:not(:first-child) {
-        margin-top: 4.9rem;
-      }
     }
   `}
 `

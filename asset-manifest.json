@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/static/js/main.d0d3e7e6.js",
+    "static/js/787.7c75954b.chunk.js": "/static/js/787.7c75954b.chunk.js",
+    "static/media/illustration-phones.svg": "/static/media/illustration-phones.fd23559f1d2f81f9e3f3340eeaf2467c.svg",
+    "static/media/logo.svg": "/static/media/logo.1591bc20b914c098a9cd6e423b1623c3.svg",
+    "static/media/illustration-laptop-mobile.svg": "/static/media/illustration-laptop-mobile.fe1ec0f05da01bb067fa78fca0b79d76.svg",
+    "static/media/illustration-laptop-desktop.svg": "/static/media/illustration-laptop-desktop.799209c2628b1f244e1512cc686f0162.svg",
+    "static/media/illustration-editor-desktop.svg": "/static/media/illustration-editor-desktop.c6c8050aa4dcf0c64b4406570c970d2b.svg",
+    "static/media/illustration-editor-mobile.svg": "/static/media/illustration-editor-mobile.b9c7941a96d06832fa27673be37499a4.svg",
+    "static/media/bg-pattern-intro-mobile.svg": "/static/media/bg-pattern-intro-mobile.3d70cc0d02948cb778517aece1eac215.svg",
+    "index.html": "/index.html",
+    "static/media/bg-pattern-intro-desktop.svg": "/static/media/bg-pattern-intro-desktop.bf6b3e1b727eabeffdc535d0d6a5f268.svg",
+    "static/media/bg-pattern-circles.svg": "/static/media/bg-pattern-circles.bae804b8cc1519f26c944365280d192b.svg",
+    "static/media/icon-arrow-light.svg": "/static/media/icon-arrow-light.9ba0f38e6df41815773e653d50260ecd.svg",
+    "static/media/icon-arrow-dark.svg": "/static/media/icon-arrow-dark.5215f8d979a83644d14e8b69f6ee4633.svg",
+    "main.d0d3e7e6.js.map": "/static/js/main.d0d3e7e6.js.map",
+    "787.7c75954b.chunk.js.map": "/static/js/787.7c75954b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d0d3e7e6.js"
+  ]
+}
